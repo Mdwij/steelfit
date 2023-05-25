@@ -10323,3 +10323,43 @@ textarea.form-control {
     .js-scroll-top {
       right: 85%; } }
 /*# sourceMappingURL=style.css.map */
+
+.card-hover{
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-hover .overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform: scale(0);
+  opacity: 0;
+  background-color: rgba(74, 47, 26, 0.57);
+  transition: 0.5s ease;
+}
+
+.card-hover:hover .overlay{
+  transform: scale(1);
+  opacity: 1;
+}
+
+.card-hover .card-content{
+  position: absolute;
+  width: 100%;
+  top: 70%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%,-50%);
+  transition: 0.5s ease;
+}
+
+.card-hover:hover .card-content{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  transform: translate(-50%,-50%);
+}
