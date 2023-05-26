@@ -8510,10 +8510,8 @@ h1, h2, h3, h4, h5,
         background: rgba(255, 255, 255, 0.4); }
         .owl-carousel.home-slider .owl-dots .owl-dot.active {
           background: #fff; }
-  .owl-carousel .ht {
+ .owl-carousel .ht {
     display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
     font-size: 7vw;
     color: #fff !important;
     line-height: 1; }
@@ -8527,14 +8525,14 @@ h1, h2, h3, h4, h5,
       font-size: 9rem;
       color: #923b00;
       font-weight: 900;
-      margin-right: -50px; }
+ }
       @media (max-width: 991.98px) {
         .owl-carousel .ht .w {
           font-size: 8rem; } }
       @media (max-width: 767.98px) {
         .owl-carousel .ht .w {
           font-size: 4rem;
-          margin-right: -20px; } }
+ } }
     .owl-carousel .ht:first-of-type {
       -webkit-animation: 6s forwards showup;
               animation: 6s forwards showup; }
@@ -8552,9 +8550,53 @@ h1, h2, h3, h4, h5,
       -webkit-animation: 6s 1s forwards reveal;
               animation: 6s 1s forwards reveal; }
     .owl-carousel .ht:last-of-type span {
-      margin-left: -355px;
+      
       -webkit-animation: 6s forwards slidein;
-              animation: 6s forwards slidein; }
+      animation: 6s forwards slidein; }
+    .owl-carousel .ht {
+        display: inline-block;
+        overflow: hidden;
+        font-size: 7vw;
+        color: #fff !important;
+        line-height: 1; }
+        @media (max-width: 991.98px) {
+    .owl-carousel .ht {
+      font-size: 5rem; } }
+  @media (max-width: 767.98px) {
+    .owl-carousel .ht {
+      font-size: 2.5rem; } }
+        .owl-carousel .ht .w {
+          font-size: 9rem;
+          color: #923b00;
+          font-weight: 900;
+           }
+          @media (max-width: 991.98px) {
+            .owl-carousel .ht .w {
+              font-size: 8rem; } }
+          @media (max-width: 767.98px) {
+            .owl-carousel .ht .w {
+              font-size: 4rem;
+               } }
+        .owl-carousel .ht:first-of-type {
+          -webkit-animation: 6s forwards showup;
+                  animation: 6s forwards showup; }
+          @media (max-width: 991.98px) {
+            .owl-carousel .ht:first-of-type {
+              padding-right: 5rem; } }
+          @media (max-width: 767.98px) {
+            .owl-carousel .ht:first-of-type {
+              padding-right: 0rem; } }
+          @media (max-width: 575.98px) {
+            .owl-carousel .ht:first-of-type {
+              padding-right: 4rem; } }
+        .owl-carousel .ht:last-of-type {
+          width: 0px;
+          -webkit-animation: 6s 1s forwards reveal;
+                  animation: 6s 1s forwards reveal; }
+        .owl-carousel .ht:last-of-type span {
+          margin-left: -355px;
+          -webkit-animation: 6s forwards slidein;
+                  animation: 6s forwards slidein; }
 
 @-webkit-keyframes showup {
   0% {
